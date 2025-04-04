@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(135deg, #df89b5 10%, #bfd9fe 100%);
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    /* background-color: rgb(164, 104, 124); */
+    background-image: linear-gradient(135deg, #EE9CA7 10%, #FFDDE1 100%);
+    border:5px solid black;
+    height: 300px;
+    width: 700px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+tr,td,th{
+    border:2px solid black;
+    
+}
